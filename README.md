@@ -31,7 +31,7 @@ A **practical course** to learn to **build and deploy ML systems**. Focus: **ML 
 
 ## 📝 Syllabus
 
-### Module 1: Introduction to ML
+### [Module 1: Introduction to ML](https://github.com/mypham14/ml-zoomcamp/tree/main/01-intro)
 - ML vs rule-based systems  
 - Supervised learning basics  
 - CRISP-DM methodology  
