@@ -1,0 +1,11 @@
+torch
+torchmetrics
+scikit-learn
+pandas
+streamlit
+joblib
+matplotlib
+seaborn
+numpy
+pytest
+flake8
