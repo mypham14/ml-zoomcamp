@@ -1,6 +1,8 @@
 FROM python:3.11-slim
 
-LABEL maintainer="your-name <your-email@example.com>"
+LABEL maintainer="My Pham" \
+      description="Cyber Threat Detection: Deep Learning model for detecting network anomalies" \
+      repository="https://github.com/mypham14/ml-zoomcamp/12-network-anomaly-detection"
 
 WORKDIR /app
 
@@ -29,4 +31,4 @@ USER appuser
 EXPOSE 8501
 
 # Entrypoint: run Streamlit in headless mode
-CMD ["streamlit", "run", "app/streamlit_app.py", "--server.port", "8501", "--server.headless", "true"]
+CMD ["streamlit", "run", "app/streamlit_app.py", "--server.port", "8504", "--server.headless", "true"]
